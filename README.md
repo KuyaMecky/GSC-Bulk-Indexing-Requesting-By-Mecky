@@ -86,9 +86,9 @@ For any questions or support, please contact Mecky at [tallada88@gmail.com](http
 
 ---
 
-## Fancy Design and Code Preview 💻
 
-### How to Implement
+
+### How to Implement💻
 
 ```python
 # authenticate.py
