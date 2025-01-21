@@ -1,10 +1,10 @@
-# GSC (Bulk) Indexing Requesting By Mecky
+# GSC (Bulk) Indexing Requesting By Mecky 🚀
 
 ## Overview
 
 This project provides a script to perform bulk indexing requests using the Google Search Console (GSC) API. The script automates the process of submitting URLs for indexing, making it easier to manage large volumes of URLs.
 
-## Prerequisites
+## Prerequisites ✅
 
 Before you begin, ensure you have the following:
 
@@ -13,56 +13,56 @@ Before you begin, ensure you have the following:
 - Google Cloud project with the Search Console API enabled
 - OAuth 2.0 credentials (client ID and client secret)
 
-## Setup
+## Setup 🛠️
 
-1. **Clone the repository:**
+### Clone the Repository
 
-    ```bash
-    git clone https://github.com/KuyaMecky/GSC-Bulk-Indexing-Requesting-By-Mecky.git
-    cd gsc-bulk-indexing
-    ```
+```bash
+git clone https://github.com/KuyaMecky/GSC-Bulk-Indexing-Requesting-By-Mecky.git
+cd GSC-Bulk-Indexing-Requesting-By-Mecky
+```
 
-2. **Install the required Python packages:**
+### Install Required Python Packages
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
 
-3. **Set up Google Cloud credentials:**
+### Set Up Google Cloud Credentials
 
-    - Go to the [Google Cloud Console](https://console.cloud.google.com/).
-    - Create a new project or select an existing project.
-    - Enable the Search Console API for your project.
-    - Create OAuth 2.0 credentials and download the JSON file.
-    - Save the JSON file in the project directory and rename it to `credentials.json`.
+1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
+2. Create a new project or select an existing project.
+3. Enable the Search Console API for your project.
+4. Create OAuth 2.0 credentials and download the JSON file.
+5. Save the JSON file in the project directory and rename it to `credentials.json`.
 
-## Usage
+## Usage 🚀
 
-1. **Authenticate with Google:**
+### Authenticate with Google
 
-    Run the script to authenticate with your Google account:
+Run the script to authenticate with your Google account:
 
-    ```bash
-    python authenticate.py
-    ```
+```bash
+python authenticate.py
+```
 
-    This will open a browser window for you to log in and authorize the application. The authentication tokens will be saved for future use.
+This will open a browser window for you to log in and authorize the application. The authentication tokens will be saved for future use.
 
-2. **Prepare your URLs:**
+### Prepare Your URLs
 
-    Create a text file named `urls.txt` in the project directory and list the URLs you want to submit for indexing, one per line.
+Create a text file named `urls.txt` in the project directory and list the URLs you want to submit for indexing, one per line.
 
-3. **Run the indexing script:**
+### Run the Indexing Script
 
-    Execute the script to submit the URLs for indexing:
+Execute the script to submit the URLs for indexing:
 
-    ```bash
-    python index_urls.py
-    ```
+```bash
+python index_urls.py
+```
 
-    The script will read the URLs from `urls.txt` and submit them to the GSC API for indexing.
+The script will read the URLs from `urls.txt` and submit them to the GSC API for indexing.
 
-## Implementation Details
+## Implementation Details 📝
 
 ### Authenticating with the GSC API
 
@@ -72,21 +72,21 @@ The `authenticate.py` script handles the OAuth 2.0 authentication process. It us
 
 The `index_urls.py` script reads the URLs from `urls.txt` and submits them to the GSC API using the `google-api-python-client` library. The script handles the API requests and responses, ensuring that each URL is submitted correctly.
 
-## Contributing
+## Contributing 🤝
 
 If you would like to contribute to this project, please fork the repository and submit a pull request. We welcome all contributions!
 
-## License
+## License 📄
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
+## Contact 📧
 
 For any questions or support, please contact Mecky at mecky@example.com.
 
 ---
 
-## Fancy Design and Code Preview
+## Fancy Design and Code Preview 💻
 
 ### How to Implement
 
