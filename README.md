@@ -82,7 +82,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact 📧
 
-For any questions or support, please contact Mecky at mecky@example.com.
+For any questions or support, please contact Mecky at [tallada88@gmail.com](https://github.com/KuyaMecky).
 
 ---
 
