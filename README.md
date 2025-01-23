@@ -1,4 +1,4 @@
-# GSC (Bulk) Indexing Requesting By Mecky 🚀
+# GSC Bulk Indexing Request by Mecky 🚀
 
 ## Overview
 
@@ -86,9 +86,7 @@ For any questions or support, please contact Mecky at [tallada88@gmail.com](http
 
 ---
 
-
-
-### How to Implement💻
+### How to Implement 💻
 
 ```python
 # authenticate.py
